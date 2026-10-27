@@ -1,3 +1,7 @@
+package modelo;
+
+import armas.CargaProfundidad;
+
 public class Buque extends ObjetoJuego implements EntidadMovil {
     public static final int PROFUNDIDAD = 0;
 
@@ -46,3 +50,4 @@ public class Buque extends ObjetoJuego implements EntidadMovil {
         return velocidadCaidaCargas;
     }
 }
+

@@ -1,4 +1,9 @@
+package armas;
+
 import java.util.Random;
+
+import modelo.EntidadMovil;
+import modelo.ObjetoJuego;
 
 public class CargaProfundidad extends ObjetoJuego implements EntidadMovil {
     public static final int PROFUNDIDAD_EXPLOSION_MIN = 300;
@@ -46,3 +51,4 @@ public class CargaProfundidad extends ObjetoJuego implements EntidadMovil {
         return velocidadCaida;
     }
 }
+

@@ -1,3 +1,5 @@
+package modelo;
+
 public class Submarino extends ObjetoJuego {
     public static final int PROFUNDIDAD_MIN = 300;
     public static final int PROFUNDIDAD_MAX = 800;

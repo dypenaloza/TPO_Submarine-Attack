@@ -1,3 +1,5 @@
+package modelo;
+
 public abstract class ObjetoJuego {
     private double posicionX;
     private double posicionY;
